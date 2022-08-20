@@ -1,7 +1,6 @@
-const express = require('express')
 const randomInt = require('random-int');
 const os = require('os');
-const app = express();
+const app = require('express')();
 const port = 8000
 
 app.get('/', (req, res) => {
